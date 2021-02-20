@@ -19,9 +19,9 @@ Here's the keyboard layout of this program.
 5. Press F11 again to resume RomaKey.
 6. Just right-click system tray icon and click exit to close the program.
 
-Note : You can also download additional Telugu Unicode Fonts and use them.
+Note : You can also download additional Telugu Unicode Fonts from the link below and use them.
 
-[Unicode Telugu Fonts on Google Fonts](https://fonts.google.com/?subset=telugu)
+[Download Unicode Telugu Fonts on Google Fonts](https://fonts.google.com/?subset=telugu)
 
 # Contribtution
 Responses be late.
