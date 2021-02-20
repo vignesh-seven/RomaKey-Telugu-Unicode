@@ -9,6 +9,7 @@ But this is faster, simpler, and uses less resources.
 No installation. Just download and double-click .exe file !!!
 # Keyboard Layout
 Here's the keyboard layout of this program.
+![KeyboardLayout](RomaKeyUnicodeLayout.png)
 
 # How to Use
 1. RomaKey has no GUI.
