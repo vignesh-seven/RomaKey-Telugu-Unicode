@@ -21,7 +21,7 @@ Here's the keyboard layout of this program.
 
 Note : You can also download additional Telugu Unicode Fonts from the link below and use them.
 
-[Download Unicode Telugu Fonts on Google Fonts](https://fonts.google.com/?subset=telugu)
+[Get Unicode Telugu Fonts from Google Fonts](https://fonts.google.com/?subset=telugu)
 
 # Contribtution
 Responses be late.
