@@ -149,7 +149,7 @@ If(GetKeyState("CapsLock", "T")) {
 	return
 }
 else {
-	send {text}ై
+	send {text}ై
 }
 return
 +m::
@@ -301,7 +301,7 @@ return
 ;
 ;
 
-F11::
+F9::
 suspend, toggle
 return
 !a::
