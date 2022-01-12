@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -24,6 +24,8 @@ return
 return
 ;+Enter::
 
+link := false
+
 ;
 ;
 ;      Letters - Basic
@@ -36,120 +38,133 @@ return
 ;
 
 a::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఆ
 	return
 }
 else {
 	send {text}ా
+	link := false
 }
 return
 +a::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}అ
 	return
 }
 else {
 	send {text}అ
+	link := false
 }
 return
 e::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఎ
 	return
 }
 else {
 	send {text}ె
+	link := false
 }
 return
 +e::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఏ
 	return
 }
 else {
 	send {text}ే
+	link := false
 }
 return
 +u::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఊ
 	return
 }
 else {
 	send {text}ూ
+	link := false
 }
 return
 u::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఉ
 	return
 }
 else {
 	send {text}ు
+	link := false
 }
 return
 i::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఇ
 	return
 }
 else {
 	send {text}ి
+	link := false
 }
 return
 +i::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఈ
 	return
 }
 else {
 	send {text}ీ
+	link := false
 }
 return
 +y::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఐ
 	return
 }
 else {
 	send {text}ా
+	link := false
 }
 return
 o::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఒ
 	return
 }
 else {
 	send {text}ొ
+	link := false
 }
 return
 +o::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఓ
 	return
 }
 else {
 	send {text}ో
+	link := false
 }
 return
 +v::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఔ
 	return
 }
 else {
 	send {text}ౌ
+	link := false
 }
 return
 \::
-If(GetKeyState("CapsLock", "T")) {
+If(link == false) {
 	send {text}ఐ
 	return
 }
 else {
-	send {text}ై
+	send {text}ై
+	link := false
 }
 return
 +m::
