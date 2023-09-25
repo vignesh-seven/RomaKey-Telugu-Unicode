@@ -316,7 +316,7 @@ return
 ;
 ;
 
-F9::
+F11::
 suspend, toggle
 return
 !a::
