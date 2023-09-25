@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/vignesh-seven/RomaKey-Telugu-Unicode/assets/59286418/1656a0ff-e32c-4eea-b243-fe0ebe2d7ca6" width="128px" />
+</p>
+
 # RomaKey-Telugu-Unicode  
 Romic Keyboard for Unicode Typing in Telugu  
 
